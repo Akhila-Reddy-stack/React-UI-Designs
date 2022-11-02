@@ -24,7 +24,7 @@ const PaymentScreen = () => {
   };
   return (
     <>
-      <div className="container-fluid container-color">
+      <div className="container-fluid container-color ">
         <div className="d-flex row-width">
           <div className=" head-style">
             <img src={backarrow} />
