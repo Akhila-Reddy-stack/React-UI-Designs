@@ -1,0 +1,433 @@
+@media (orientation: portrait) {
+  .container-color {
+    background: #f3edf4;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+  }
+  .row-width {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .head-style {
+    width: fit-content;
+  }
+  .cities-div .ant-collapse,
+  .ant-collapse-item {
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .cities-div .ant-collapse-content {
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .cities-div .ant-collapse-content-box {
+    background: #f3edf4;
+    box-shadow: 0px -10px 20px #faf6fb, 0px 10px 20px rgba(56, 17, 63, 0.1);
+    border-radius: 40px;
+  }
+  .cities-div .ant-collapse-header {
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 15px;
+    color: #252525;
+    text-align: center;
+  }
+  .cities-div {
+    width: 70%;
+  }
+  .cities-div .ant-collapse-content > .ant-collapse-content-box {
+    /* padding: 10px 14px; */
+  }
+  .cities-div .ant-collapse-arrow {
+    top: 52% !important;
+    right: 85px !important;
+  }
+  .card-design {
+    background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+    border-radius: 35px;
+    padding: 2% 5%;
+  }
+  .card-div {
+    padding: 3% 0;
+  }
+  .cardname {
+    /* font-family: 'Metropolis'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    /* line-height: 16px; */
+    color: #ffffff;
+    letter-spacing: 0.7px;
+  }
+  .card-no {
+    /* font-family: 'Metropolis'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    letter-spacing: 0.6px;
+  }
+
+  .card-details span {
+    /* font-family: 'Metropolis'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    /* line-height: 10px; */
+    color: #ffffff;
+    letter-spacing: 0.6px;
+  }
+  .card-design p {
+    /* font-family: 'Metropolis'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    /* line-height: 16px; */
+    color: #ffffff;
+  }
+  .c-name {
+    color: #ffffff;
+    text-align: right;
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 24px;
+  }
+  .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .clinic .icon-style {
+    background: #f3edf4;
+    box-shadow: -5px -5px 10px #faf6fb, 5px 5px 10px #dfd3e1;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: -webkit-center;
+    margin: 0px 10px;
+  }
+  .clinic-count {
+    /* font-family: 'Metropolis'; */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 13px;
+    background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .clinic-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 11px;
+    color: #252525;
+    padding-top: 6px;
+  }
+  .choose-pay {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #252525;
+    margin-top: 2%;
+    letter-spacing: 0.5px;
+  }
+  .method {
+    /* font-family: 'Metropolis'; */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 40px;
+    color: #252525;
+    letter-spacing: 1px;
+  }
+  .selected-payment-method {
+    position: relative;
+    background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+    border-radius: 30px;
+    margin: 8px 0px;
+    padding: 14px;
+    letter-spacing: 0.7px;
+  }
+  .payment-method {
+    position: relative;
+    background: #f3edf4;
+    box-shadow: -10px -10px 20px #faf6fb, 10px 10px 20px #dfd3e1;
+    border-radius: 30px;
+    margin: 15px 0px;
+    padding: 14px;
+    letter-spacing: 0.7px;
+  }
+  .selected-payment-name {
+    /* font-family: 'Metropolis'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 0.1px;
+  }
+  .payment-name {
+    /* font-family: 'Metropolis'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #252525;
+    letter-spacing: 0.1px;
+  }
+  .payment-icons {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+  }
+
+  .payment-icons-amazon {
+    position: absolute;
+    right: 94px;
+    top: 13px;
+  }
+  .payment-icons-gpay {
+    position: absolute;
+    right: 68px;
+    top: 13px;
+  }
+  .payment-icons-pay {
+    position: absolute;
+    right: 44px;
+    top: 13px;
+  }
+}
+
+@media screen and (min-width: 255px) and (max-width: 370px) {
+  .clinic .icon-style {
+    margin: 0px 5px;
+  }
+  .cardname {
+    font-size: 17px;
+  }
+  .card-no {
+    font-size: 18px;
+  }
+
+  .card-details span {
+    font-size: 12px;
+  }
+  .card-design p {
+    font-size: 17px;
+  }
+  .c-name {
+    font-size: 20px;
+  }
+  .choose-pay {
+    font-size: 13px;
+    margin-top: 3%;
+    line-height: 12px;
+  }
+}
+
+@media (orientation: landscape) {
+    .container-color {
+      background: #f3edf4;
+      width: 100%;
+      height: 100vh;
+      padding: 2% 25%;
+      overflow: scroll;
+    }
+    .row-width {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+    .head-style {
+      width: fit-content;
+    }
+    .cities-div .ant-collapse,
+    .ant-collapse-item {
+      background-color: transparent !important;
+      border: none !important;
+    }
+    .cities-div .ant-collapse-content {
+      background-color: transparent !important;
+      border: none !important;
+    }
+    .cities-div .ant-collapse-content-box {
+      background: #f3edf4;
+      box-shadow: 0px -10px 20px #faf6fb, 0px 10px 20px rgba(56, 17, 63, 0.1);
+      border-radius: 40px;
+    }
+    .cities-div .ant-collapse-header {
+      font-weight: 800;
+      font-size: 15px;
+      line-height: 15px;
+      color: #252525;
+      text-align: center;
+    }
+    .cities-div {
+      width: 70%;
+    }
+    .cities-div .ant-collapse-content > .ant-collapse-content-box {
+      /* padding: 10px 14px; */
+    }
+    .cities-div .ant-collapse-arrow {
+      top: 52% !important;
+      right: 85px !important;
+    }
+    .card-design {
+      background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+      border-radius: 35px;
+      padding: 2% 5%;
+    }
+    .card-div {
+      padding: 3% 0;
+    }
+    .cardname {
+      /* font-family: 'Metropolis'; */
+      font-style: normal;
+      font-weight: 700;
+      font-size: 19px;
+      /* line-height: 16px; */
+      color: #ffffff;
+      letter-spacing: 0.7px;
+    }
+    .card-no {
+      /* font-family: 'Metropolis'; */
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 20px;
+      color: #ffffff;
+      letter-spacing: 0.6px;
+    }
+  
+    .card-details span {
+      /* font-family: 'Metropolis'; */
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      /* line-height: 10px; */
+      color: #ffffff;
+      letter-spacing: 0.6px;
+    }
+    .card-design p {
+      /* font-family: 'Metropolis'; */
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      /* line-height: 16px; */
+      color: #ffffff;
+    }
+    .c-name {
+      color: #ffffff;
+      text-align: right;
+      margin-top: 25px;
+      font-weight: 900;
+      font-size: 24px;
+    }
+    .d-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .clinic .icon-style {
+      background: #f3edf4;
+      box-shadow: -5px -5px 10px #faf6fb, 5px 5px 10px #dfd3e1;
+      border-radius: 30px;
+      width: 30px;
+      height: 30px;
+      text-align: -webkit-center;
+      margin: 0px 10px;
+    }
+    .clinic-count {
+      /* font-family: 'Metropolis'; */
+      font-style: normal;
+      font-weight: 900;
+      font-size: 13px;
+      line-height: 13px;
+      background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    .clinic-name {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 11px;
+      color: #252525;
+      padding-top: 6px;
+    }
+    .choose-pay {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      color: #252525;
+      margin-top: 2%;
+      letter-spacing: 0.5px;
+    }
+    .method {
+      /* font-family: 'Metropolis'; */
+      font-style: normal;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 40px;
+      color: #252525;
+      letter-spacing: 1px;
+    }
+    .selected-payment-method {
+      position: relative;
+      background: linear-gradient(122.62deg, #ad37e0 0%, #ee2b3b 100%);
+      border-radius: 30px;
+      margin: 8px 0px;
+      padding: 14px;
+      letter-spacing: 0.7px;
+    }
+    .payment-method {
+      position: relative;
+      background: #f3edf4;
+      box-shadow: -10px -10px 20px #faf6fb, 10px 10px 20px #dfd3e1;
+      border-radius: 30px;
+      margin: 15px 0px;
+      padding: 14px;
+      letter-spacing: 0.7px;
+    }
+    .selected-payment-name {
+      /* font-family: 'Metropolis'; */
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      color: #ffffff;
+      letter-spacing: 0.1px;
+    }
+    .payment-name {
+      /* font-family: 'Metropolis'; */
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      color: #252525;
+      letter-spacing: 0.1px;
+    }
+    .payment-icons {
+      position: absolute;
+      right: 15px;
+      top: 13px;
+    }
+  
+    .payment-icons-amazon {
+      position: absolute;
+      right: 94px;
+      top: 13px;
+    }
+    .payment-icons-gpay {
+      position: absolute;
+      right: 68px;
+      top: 13px;
+    }
+    .payment-icons-pay {
+      position: absolute;
+      right: 44px;
+      top: 13px;
+    }
+  }
