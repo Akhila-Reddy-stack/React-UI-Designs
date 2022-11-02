@@ -36,9 +36,6 @@
   .cities-div {
     width: 70%;
   }
-  .cities-div .ant-collapse-content > .ant-collapse-content-box {
-    /* padding: 10px 14px; */
-  }
   .cities-div .ant-collapse-arrow {
     top: 52% !important;
     right: 85px !important;
